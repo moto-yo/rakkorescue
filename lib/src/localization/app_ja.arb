@@ -1,0 +1,105 @@
+{
+  "@@locale": "ja",
+  "appTitle": "らっこレスキュー",
+  "itemDetailsTitle": "Todo詳細",
+  "settingsTitle": "設定",
+  "systemTheme": "システム外観",
+  "lightTheme": "ライト モード",
+  "darkTheme": "ダーク モード",
+  "newTodo": "新規 Todo",
+  "tabGame": "ゲーム",
+  "tabNote": "らっこノート",
+  "tabHowToPlay": "あそびかた",
+  "tabSetting": "設定",
+
+  "titlePage0": "サーフボードで波にのり、ゴミが絡まったラッコやアザラシを救出するすごろくゲームです。",
+  "titlePage1": "波乗りサイコロを2つふって、どちらかの数字を選び波にのります。",
+  "titlePage2": "波をめくるとゴミが出ます。3種類のゴミがあり、それぞれに1~4の数字と、数字のないカードがあります。",
+  "titlePage3": "気をつけて！同じマークのゴミが3つそろってしまうと波乗り終了です！",
+  "titlePage4": "ゴミが絡まった生き物は岩場であなたを待っています。ぴったりの数で止まれたら、彼らをサーフボードにのせてあげることができます。",
+  "titlePage5": "動物を連れてビーチに戻れたらレスキュー成功！詳しくは遊び方ページをチェックしてね",
+
+  "seaCard0Body": "同じマークのゴミ3つで波乗り終了。昆布で修理すれば使えるよ",
+  "seaCardBody": "同じマークのゴミ3つで波乗り終了",
+  "seaKelpForestBody": "安全だ。壊れたボードの修理に使えるよ",
+
+  "seaHeart0Title": "壊れたボード：生活ゴミ",
+  "seaHeart1Title": "ペットボトル：生活ゴミ1",
+  "seaHeart2Title": "レジ袋：生活ゴミ2",
+  "seaHeart3Title": "ペットボトル大：生活ゴミ3",
+  "seaHeart4Title": "プラ容器：生活ゴミ4",
+
+  "seaSpade0Title": "壊れたボード：漁具ゴミ",
+  "seaSpade1Title": "釣り針：漁具ゴミ1",
+  "seaSpade2Title": "ルアー：漁具ゴミ2",
+  "seaSpade3Title": "切れたアミ：漁具ゴミ3",
+  "seaSpade4Title": "大きなアミ：漁具ゴミ4",
+  
+  "seaDiamond0Title": "壊れたボード：発泡スチロールゴミ",
+  "seaDiamond1Title": "トレー皿：発泡スチロールゴミ1",
+  "seaDiamond2Title": "小さなブイ：発泡スチロールゴミ2",
+  "seaDiamond3Title": "丸いブイ：発泡スチロールゴミ3",
+  "seaDiamond4Title": "大きなブイ：発泡スチロールゴミ4",
+  
+  "seaKelpForestTitle": "昆布の森",
+  
+  "start1": "なにがでるかな？",
+
+  "trashPickupTitle": "「ゴミとり」GET!",
+  "surfAgainTitle": "「波乗りアゲイン」GET!",
+  "seaOtterSearchTitle": "「らっこリサーチ」GET!",
+
+  "useTrashPickupTitle": "「ゴミとり」",
+  "useSurfAgainTitle": "「波乗りアゲイン」",
+  "useSeaOtterSearchTitle": "「らっこリサーチ」",
+
+  "trashPickup1Body": "1の数字のゴミ、壊れたボードのゴミをとりのぞけるよ",
+  "trashPickup2Body": "2,1の数字とサーフボードのゴミをとりのぞけるよ",
+  "trashPickup3Body": "3,2,1の数字とサーフボードのゴミをとりのぞけるよ",
+  "trashPickup4Body": "4,3,2,1の数字とサーフボードのゴミをとりのぞけるよ",
+
+  "surfAgainBody": "サイコロをふり直せるよ",
+  "seaOtterSearchBody": "波乗りで出た波のどちらか1つ見ることができるよ",
+
+  "limitActionCard1": "お助けカードは2つまで！",
+  "limitActionCard2": "捨てるものを選んでください",
+  "rollDice": "さぁ行こう！",
+  "diceSame": "助けを求める動物がもう一匹やってきた！",
+
+  "rakkosHelp1": "とりのぞくゴミをタップしてください",
+  "rakkosHelp2": "リサーチする波をタップしてください",
+  "rakkosHelpAnim": "壊れたボードを入手！昆布で修理すると使えます。",
+
+  "choiceDice": "どちらの波にのりますか？",
+  "openSeaCard1": "同じマークのゴミ3つで波乗り終了",
+  "removeDebris": "このセットでゴミとり",
+  "choiceRepairBoat2": "昆布でボードを修理する？",
+  "repairBoat": "使う昆布をタップしてください",
+  "helpRakkos1Title": "やったね！",
+  "helpRakkos1Body": "動物をサーフボードにのせた！",
+  "helpRakkos2Title": "満員！",   
+  "helpRakkos2Body": "これ以上のりません。追加ボードが必要です。",
+
+  "choiceGoal1": "ゴールする！",  
+  "choiceGoal2": "続けて波乗り.",  
+  "gameover": "同じ種類のゴミが3つ揃ってしまった！",
+  "success": "手当てをしています…",
+
+  "result1": "救出できなかった動物の数",
+  "result2": "使った「らっこの手助け」",
+  "result3": "ゴミセットの数",
+  "result4": "ゴミとりした数",
+  "result5": "救出できた動物の数",
+
+
+  "discoverRakkosTitle": "おめでとう！新しい発見！",
+  "chara001": "浮かぶラッコ",
+
+  "discoverRakkosBody": "あなたが助けた生き物は、研究ノートで確認できます。どんどん助けて詳しくなりましょう！",
+
+
+  "choiceActionCard": "使うアクション カードを選択してね",
+  "successRescued": "レスキュー せいこう！！",
+  "rakosResearch": "調べる波をタップしてください",
+  "repairBoards": "ボートを修理しました"
+}

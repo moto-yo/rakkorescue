@@ -1,0 +1,106 @@
+{
+  "appTitle": "Rescue Sea Friends",
+  "@appTitle": {
+    "description": "Rescue Sea Friends"
+  },
+  "itemDetailsTitle": "Item Details",
+  "settingsTitle": "Settings",
+  "systemTheme": "System Theme",
+  "lightTheme": "Light Theme",
+  "darkTheme": "Dark Theme",
+  "newTodo": "New Todo",
+  "tabGame": "Game",
+  "tabNote": "Note",
+  "tabHowToPlay": "How to play",
+  "tabSetting": "setting",
+  "titlePage0": "Ride the waves on a surfboard and rescue entangled marine mammals in this board game.",
+  "titlePage1": "Roll two surf dice and choose one of the numbers to catch a wave.",
+  "titlePage2": "Flip a wave card to reveal trash. There are three types of trash cards, each with numbers 1-4, and some with no numbers.",
+  "titlePage3": "Watch Out! If you get three of the same trash symbol, your surfing session ends!",
+  "titlePage4": "Marine mammals entangled in trash are waiting on the rocks. Land on the exact number to safely load them onto your surfboard.",
+  "titlePage5": "Successfully return to the cove to complete the rescue! Check the How to Play page for more details.",
+
+  "seaCard0Body": "Surfing ends after collecting 3 matching trash.can be used if repaired with Kelp.",
+  "seaCardBody": "Surfing ends after collecting 3 matching trash.",
+  "seaKelpForestBody": "Safe. Can be used for repairing broken boards.",
+
+  "seaHeart0Title": "Broken Surfboard",
+  "seaHeart1Title": "Plastic Bottle",
+  "seaHeart2Title": "Plastic Bag",
+  "seaHeart3Title": "Big Plastic Bottle",
+  "seaHeart4Title": "Plastic Container",
+
+  "seaSpade0Title": "Broken Surfboard",
+  "seaSpade1Title": "Hook",
+  "seaSpade2Title": "Lure",
+  "seaSpade3Title": "Torn Net",
+  "seaSpade4Title": "Big Net",
+
+  "seaDiamond0Title": "Broken Surfboard",
+  "seaDiamond1Title": "Form Tray",
+  "seaDiamond2Title": "Small Buoy",
+  "seaDiamond3Title": "Round Buoy",
+  "seaDiamond4Title": "Big Buoy",
+  
+  "seaKelpForestTitle": "KelpForest",
+  
+  "start1": "What will you get?",
+
+  "trashPickupTitle": "Get 'Trash Pickup'!",
+  "surfAgainTitle": "Get 'Surf Again'!",
+  "seaOtterSearchTitle": "Get ‘Sea Otter Research'!",
+
+  "useTrashPickupTitle": "'Trash Pickup'",
+  "useSurfAgainTitle": "'Surf Again'",
+  "useSeaOtterSearchTitle": "‘Sea Otter Research'",
+
+  "trashPickup1Body": "Remove 1-numbered trash and broken boards.",
+  "trashPickup2Body": "Remove 2 and 1-numbered trash, and broken boards.",
+  "trashPickup3Body": "Remove 3, 2, and 1-numbered trash, and broken boards.",
+  "trashPickup4Body": "Remove 4, 3, 2, and 1-numbered trash, and broken boards.",
+
+  "surfAgainBody": "You can roll the dice again.",
+  "seaOtterSearchBody": "You can peek at one of the waves from your surfing.",
+
+  "limitActionCard1": "You can only have up to two cards.", 
+  "limitActionCard2": "Please tap the cards to discard.", 
+  "rollDice": "Let's go!",
+  "diceSame": "Another one seeking help has arrived!",
+  
+  "rakkosHelp1": "Tap to remove trash.",
+  "rakkosHelp2": "Tap to search waves.",
+  "rakkosHelpAnim": "Obtain a broken board! Repair with kelp to use.",
+
+  "choiceDice": "Which wave will you ride?",
+  "openSeaCard1": "Surfing ends after collecting 3 matching trash.",
+  "removeDebris": "Clean up with this set.",
+  "choiceRepairBoat2": "Repair the board with kelp?",
+  "repairBoat": "Tap the kelp you want to use.",
+  "helpRakkos1Title": "Yay!",
+  "helpRakkos1Body": "Put animals on the surfboard!",
+  "helpRakkos2Title": "Full!",   
+  "helpRakkos2Body": "No more space. We need an additional board.",
+
+  "choiceGoal1": "Reach the goal!",  
+  "choiceGoal2": "Continue surfing.",  
+  "gameover": "Three matching types of trash have appeared!.",
+  "success": "Removing tangled trash...",
+
+  "result1": "Number of unrecoverable mammals.",
+  "result2": "Used 'Sea Otter Assistance'",
+  "result3": "Number of trash sets",
+  "result4": "Number of trash pickups",
+  "result5": "Number of rescued mammals.",
+
+  "discoverRakkosTitle": "Congratulations! New discovery!",
+  "chara001": "Floating Sea Otter",
+
+  "discoverRakkosBody": "The mammals you rescued can be found in the research notes. Keep helping to learn more!",
+
+
+
+  "choiceActionCard": "Choose the action card you want to use",
+  "successRescued": "Success!!",
+  "rakosResearch": "Tap to search waves.",
+  "repairBoards": "Repaired the boat."
+}
