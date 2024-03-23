@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import '../../state/game_state.dart';
-import '../../interfaces/state_type.dart';
+import '../../../state/game_state.dart';
+import '../../../interfaces/state_type.dart';
 
-import './state/choice_goal.dart';
-import './state/choice_repair_boat.dart';
+import '../state/choice_goal.dart';
+import '../state/choice_repair_boat.dart';
 
-import './state/rakos_help_anim.dart';
+import '../state/rakos_help_anim.dart';
 
 // 🌊海ダイアログのレイアウト
 class SeaMiniLongDlg extends StatelessWidget {

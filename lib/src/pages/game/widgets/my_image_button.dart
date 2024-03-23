@@ -8,6 +8,7 @@ class MyImageButton extends StatelessWidget {
     required this.height,
     this.margin,
     this.onTap,
+    this.isDisable = false,
   });
 
   final AssetImage image;
@@ -15,6 +16,7 @@ class MyImageButton extends StatelessWidget {
   final double height;
   final EdgeInsetsGeometry? margin;
   final void Function()? onTap;
+  final bool isDisable;
 
   @override
   Widget build(BuildContext context) {
@@ -22,11 +24,19 @@ class MyImageButton extends StatelessWidget {
       margin: margin,
       child: GestureDetector(
         onTap: onTap,
-        child: Image(
-          image: image,
-          width: width,
-          height: height,
-        ),
+        child: isDisable
+            ? Image(
+                image: image,
+                width: width,
+                height: height,
+                color: Colors.grey,
+                colorBlendMode: BlendMode.saturation,
+              )
+            : Image(
+                image: image,
+                width: width,
+                height: height,
+              ),
       ),
     );
   }

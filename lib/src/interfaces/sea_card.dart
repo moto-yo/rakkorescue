@@ -25,4 +25,8 @@ class SeaCard {
   bool isSelected = false;
 
   SeaCard(this.suit, this.n, this.isOpened, this.isSurge) : id = _uniqueId++;
+
+  // 自身を copyする
+  SeaCard._clone(this.id, this.suit, this.n, this.isOpened, this.isSurge);
+  SeaCard clone() => SeaCard._clone(id, suit, n, isOpened, isSurge);
 }

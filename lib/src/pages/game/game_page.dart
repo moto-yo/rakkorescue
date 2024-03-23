@@ -4,8 +4,8 @@ import 'package:provider/provider.dart';
 import '../../interfaces/state_type.dart';
 import '../../state/game_state.dart';
 
-import 'title_view.dart';
-import 'play_view.dart';
+import 'views/title_view.dart';
+import 'views/play_view.dart';
 
 // tab内のページ
 class GamePage extends StatelessWidget {

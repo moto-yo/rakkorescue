@@ -54,13 +54,14 @@ class ActionCard {
     return body;
   }
 
+  // このアクション カードが使える場合 true
   bool canUse(GameState gameState) {
     switch (action) {
       case ActionType.help:
         for (int i = 0; i < 16; i++) {
           final seaCard = gameState.getSeaCardIndex(i);
 
-          if (seaCard.isOpened && (seaCard.suit.index < 4) && (seaCard.n <= n)) {
+          if (seaCard.isOpened && (seaCard.suit.index <= 3) && (seaCard.n <= n)) {
             return true;
           }
         }
@@ -74,7 +75,7 @@ class ActionCard {
         for (int i = 0; i < 16; i++) {
           final seaCard = gameState.getSeaCardIndex(i);
 
-          if (!seaCard.isOpened && (seaCard.suit.index < 4)) {
+          if (!seaCard.isOpened && (seaCard.suit.index <= 3)) {
             return true;
           }
         }

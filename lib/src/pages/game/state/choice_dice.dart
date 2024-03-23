@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 import '../../../assets/play_images.dart';
-import '../mini_dlg.dart';
+import '../dialog/mini_dlg.dart';
 
 class ChoiceDice extends StatelessWidget {
   const ChoiceDice({super.key});

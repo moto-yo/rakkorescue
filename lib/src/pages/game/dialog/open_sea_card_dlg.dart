@@ -5,23 +5,23 @@ import 'package:provider/provider.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:rakkorescue/src/interfaces/sea_card.dart';
 
-import '../../assets/play_images.dart';
-import '../../state/game_state.dart';
+import '../../../assets/play_images.dart';
+import '../../../state/game_state.dart';
 
-import 'sea_card_view.dart';
+import '../widgets/sea_card_widget.dart';
 import 'sea_dlg.dart';
 
-class OpenSeaCardWidget extends StatefulWidget {
-  const OpenSeaCardWidget({super.key, required this.seaCard, required this.onTap});
+class OpenSeaCardDlg extends StatefulWidget {
+  const OpenSeaCardDlg({super.key, required this.seaCard, required this.onTap});
 
   final SeaCard seaCard;
   final void Function() onTap;
 
   @override
-  State<OpenSeaCardWidget> createState() => _OpenSeaCardState();
+  State<OpenSeaCardDlg> createState() => _OpenSeaCardState();
 }
 
-class _OpenSeaCardState extends State<OpenSeaCardWidget> with SingleTickerProviderStateMixin {
+class _OpenSeaCardState extends State<OpenSeaCardDlg> with SingleTickerProviderStateMixin {
   SeaCard get _seaCard => widget.seaCard;
 
   late AnimationController _controller;
@@ -148,7 +148,7 @@ class _OpenSeaCardState extends State<OpenSeaCardWidget> with SingleTickerProvid
                   }
                 },
                 child: _isFinished
-                    ? SeaCardView(
+                    ? SeaCardWidget(
                         seaCard: _seaCard,
                         isBoroBoat: gameState.openSeaCardIsBoroBoat,
                       )
@@ -157,7 +157,7 @@ class _OpenSeaCardState extends State<OpenSeaCardWidget> with SingleTickerProvid
                           ..setEntry(3, 2, 0.00082)
                           ..rotateY(_animation.value),
                         alignment: FractionalOffset.center,
-                        child: SeaCardView(
+                        child: SeaCardWidget(
                           seaCard: _seaCard,
                           isBoroBoat: gameState.openSeaCardIsBoroBoat,
                         ),

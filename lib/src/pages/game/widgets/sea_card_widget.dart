@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-import '../../interfaces/sea_card.dart';
-import '../../assets/play_images.dart';
+import '../../../interfaces/sea_card.dart';
+import '../../../assets/play_images.dart';
 
-import 'dice_view.dart';
+import 'dice_widget.dart';
 
 enum SeaCardUse {
   board,
@@ -11,8 +11,8 @@ enum SeaCardUse {
 }
 
 // 盤面・盤上の🌊海カード
-class SeaCardView extends StatelessWidget {
-  const SeaCardView({
+class SeaCardWidget extends StatelessWidget {
+  const SeaCardWidget({
     super.key,
     required this.seaCard,
     this.isBoroBoat = false,
@@ -75,7 +75,7 @@ class SeaCardView extends StatelessWidget {
       diceWidget = Center(
         child: Transform.scale(
           scale: 0.618,
-          child: DiceView(n: dice),
+          child: DiceWidget(n: dice),
         ),
       );
     }

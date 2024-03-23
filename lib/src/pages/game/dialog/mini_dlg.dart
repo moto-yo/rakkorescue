@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'sea_dlg_layout.dart';
+import '../views/sea_dlg_view.dart';
 
 class MiniDlg extends StatelessWidget {
   const MiniDlg(
@@ -16,7 +16,7 @@ class MiniDlg extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SeaDlgLayout(
+    return SeaDlgView(
       bgImage: bgImage,
       width: 843,
       height: 336,

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import '../../state/game_state.dart';
-import '../../assets/play_images.dart';
+import '../../../state/game_state.dart';
+import '../../../assets/play_images.dart';
 
 // サーファー
 class SurfboardView extends StatelessWidget {

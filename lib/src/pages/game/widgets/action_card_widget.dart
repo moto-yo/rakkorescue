@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '../../interfaces/action_card.dart';
-import '../../assets/play_images.dart';
+import '../../../interfaces/action_card.dart';
+import '../../../assets/play_images.dart';
 
 enum ActionCardUse {
   dialog,
@@ -10,8 +10,8 @@ enum ActionCardUse {
 }
 
 // アクション カード
-class ActionCardView extends StatelessWidget {
-  const ActionCardView({
+class ActionCardWidget extends StatelessWidget {
+  const ActionCardWidget({
     super.key,
     required this.actionCard,
     this.actionCardUse = ActionCardUse.dialog,

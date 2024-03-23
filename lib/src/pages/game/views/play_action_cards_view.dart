@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import '../../state/game_state.dart';
+import '../../../state/game_state.dart';
 
-import 'action_card_view.dart';
+import '../widgets/action_card_widget.dart';
 
 // bottom bar
 class PlayActionCardsView extends StatelessWidget {
@@ -34,7 +34,7 @@ class PlayActionCardsView extends StatelessWidget {
               (i) {
                 final actionCard = gameState.actionCards[i];
 
-                return ActionCardView(
+                return ActionCardWidget(
                   actionCard: actionCard,
                   actionCardUse: ActionCardUse.info,
                 );

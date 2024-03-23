@@ -1,28 +1,28 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import '../../state/game_state.dart';
-import '../../interfaces/state_type.dart';
+import '../../../state/game_state.dart';
+import '../../../interfaces/state_type.dart';
 
-import './state/draw_action_card.dart';
-import './state/drawed_action_card.dart';
-import './state/limit_action_card.dart';
-import './state/roll_dice.dart';
-import './state/dice_same.dart';
-import './state/choice_action_card.dart';
+import '../state/draw_action_card.dart';
+import '../state/drawed_action_card.dart';
+import '../state/limit_action_card.dart';
+import '../state/roll_dice.dart';
+import '../state/dice_same.dart';
+import '../state/choice_action_card.dart';
 
-import './state/rakos_research_anim.dart';
-import './state/success.dart';
-import './state/success_anim.dart';
-import './state/discover_rakko.dart';
-import './state/miss_anim.dart';
+import '../state/rakos_research_anim.dart';
+import '../state/success.dart';
+import '../state/success_anim.dart';
+import '../state/discover_rakko.dart';
+import '../state/miss_anim.dart';
 
-import './state/round.dart';
-import './state/help_rakko.dart';
-import './state/cannot_help_rakko.dart';
-import 'state/open_sea_card.dart';
+import '../state/round.dart';
+import '../state/help_rakko.dart';
+import '../state/cannot_help_rakko.dart';
+import '../state/open_sea_card.dart';
 
-import './state/repair_boat_anim.dart';
+import '../state/repair_boat_anim.dart';
 
 // 🌊海ダイアログのレイアウト
 class SeaDlg extends StatelessWidget {

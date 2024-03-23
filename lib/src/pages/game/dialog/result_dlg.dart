@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
-import '../../assets/play_images.dart';
-import '../../state/game_state.dart';
+import '../../../assets/play_images.dart';
+import '../../../state/game_state.dart';
 
-import 'action_card_view.dart';
-import 'sea_card_view.dart';
+import '../widgets/action_card_widget.dart';
+import '../widgets/sea_card_widget.dart';
 import 'sea_dlg.dart';
 
 // 結果ダイアログ
@@ -56,7 +56,7 @@ class ResultDlg extends StatelessWidget {
 
                 // print('logActionCard[$i] = $actionCard');
 
-                return ActionCardView(
+                return ActionCardWidget(
                   actionCard: actionCard,
                   actionCardUse: ActionCardUse.result,
                 );
@@ -75,7 +75,7 @@ class ResultDlg extends StatelessWidget {
 
                 return Column(children: [
                   ...seaCards.map((seaCard) {
-                    return SeaCardView(seaCard: seaCard, seaCardUse: SeaCardUse.result);
+                    return SeaCardWidget(seaCard: seaCard, seaCardUse: SeaCardUse.result);
                   }),
                 ]);
               }),
@@ -91,7 +91,7 @@ class ResultDlg extends StatelessWidget {
 
                 // print('logActionCard[$i] = $actionCard');
 
-                return SeaCardView(seaCard: seaCard, seaCardUse: SeaCardUse.result);
+                return SeaCardWidget(seaCard: seaCard, seaCardUse: SeaCardUse.result);
               }),
             ),
             Text(

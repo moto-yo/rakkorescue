@@ -5,8 +5,8 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import '../../../assets/play_images.dart';
 import '../../../state/game_state.dart';
 
-import '../my_image_button.dart';
-import '../sea_dlg_layout.dart';
+import '../widgets/my_image_button.dart';
+import '../views/sea_dlg_view.dart';
 
 class RemoveDebri extends StatelessWidget {
   const RemoveDebri({super.key});
@@ -14,7 +14,7 @@ class RemoveDebri extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Consumer<GameState>(builder: (context, gameState, _) {
-      return SeaDlgLayout(
+      return SeaDlgView(
         bgImage: PlayImages.miniLongDlgBg,
         width: 1107,
         height: 330,
@@ -27,6 +27,7 @@ class RemoveDebri extends StatelessWidget {
             ),
           ),
           Row(children: [
+            // [⚪︎]
             MyImageButton(
               image: PlayImages.maruBtn,
               width: 374,
@@ -37,15 +38,19 @@ class RemoveDebri extends StatelessWidget {
                 gameState.triggerRemoveDebriAnim(gameState.removeDebriRoleI);
               },
             ),
+            // [→]
             MyImageButton(
               image: PlayImages.nextBtn,
               width: 250,
               height: 160,
               margin: const EdgeInsets.only(top: 12, right: 76),
               onTap: () {
+                gameState.removeDebriRoleI = (gameState.removeDebriRoleI + 1) % gameState.roles.length;
+
                 // ターン終了する
-                gameState.triggerRollDice();
+                // gameState.triggerRollDice();
               },
+              isDisable: gameState.roles.length < 2,
             ),
           ]),
         ]),

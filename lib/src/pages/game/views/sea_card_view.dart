@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import '../../interfaces/sea_card.dart';
-import '../../interfaces/state_type.dart';
-import '../../interfaces/role_card.dart';
-import '../../state/game_state.dart';
+import '../../../interfaces/sea_card.dart';
+import '../../../interfaces/state_type.dart';
+import '../../../interfaces/role_card.dart';
+import '../../../state/game_state.dart';
 
-import 'sea_card_view.dart';
+import '../widgets/sea_card_widget.dart';
 
 // 盤面・盤上の🌊海カード
-class SeaCardLayout extends StatelessWidget {
-  const SeaCardLayout({
+class SeaCardView extends StatelessWidget {
+  const SeaCardView({
     super.key,
     required this.index,
   });
@@ -118,7 +118,7 @@ class SeaCardLayout extends StatelessWidget {
           }
         }
 
-        return SeaCardView(
+        return SeaCardWidget(
           seaCard: seaCard,
           isBoroBoat: index == 4,
           isDisable: !isEnable,
@@ -145,11 +145,9 @@ class SeaCardLayout extends StatelessWidget {
                 }
 
                 break;
-
+              /*
               case StateType.removeDebri:
                 // ゴミを取り除く役を選択する
-                gameState.removeDebriRoleI = -1;
-
                 outerLoop:
                 for (int i = 0; i < gameState.roles.length; i++) {
                   int j = (gameState.removeDebriRoleI + 1 + i) % gameState.roles.length;
@@ -167,7 +165,7 @@ class SeaCardLayout extends StatelessWidget {
                 // 遷移しない
 
                 break;
-
+              */
               case StateType.repairBoat:
                 // 使用する昆布カードを選択する
                 gameState.triggerRepairBoatAnim(seaCard.id);

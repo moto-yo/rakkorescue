@@ -7,8 +7,8 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import '../../../assets/play_images.dart';
 import '../../../state/game_state.dart';
 
-import '../sea_dlg.dart';
-import '../dice_view.dart';
+import '../dialog/sea_dlg.dart';
+import '../widgets/dice_widget.dart';
 
 class RollDice extends StatefulWidget {
   const RollDice({super.key});
@@ -113,9 +113,9 @@ class _RollDiceState extends State<RollDice> with SingleTickerProviderStateMixin
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    DiceView(n: _dice[0]),
+                    DiceWidget(n: _dice[0]),
                     const SizedBox(width: 20),
-                    DiceView(n: _dice[1]),
+                    DiceWidget(n: _dice[1]),
                   ],
                 ),
               ),

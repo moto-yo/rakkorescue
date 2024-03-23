@@ -3,8 +3,8 @@ import 'dart:math' as math;
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import '../../assets/play_images.dart';
-import '../../state/game_state.dart';
+import '../../../assets/play_images.dart';
+import '../../../state/game_state.dart';
 
 // らっこの岩場🪨
 class RockyBeachView extends StatelessWidget {

@@ -39,6 +39,9 @@ class MyApp extends StatelessWidget {
             Locale('en', ''), // languageCode, countryCode
             Locale('ja', ''),
           ],
+          // home: 以下で取得可
+          // Locale locale = Localizations.localeOf(context);
+          // print(locale.languageCode); // en
 
           // ユーザーの localeに合った文字列を得る
           // $ flutter pub get

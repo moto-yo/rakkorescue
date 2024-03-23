@@ -5,8 +5,8 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import '../../../assets/play_images.dart';
 import '../../../state/game_state.dart';
 
-import '../dice_view.dart';
-import '../sea_dlg.dart';
+import '../widgets/dice_widget.dart';
+import '../dialog/sea_dlg.dart';
 
 class DiceSame extends StatelessWidget {
   const DiceSame({super.key});
@@ -48,9 +48,9 @@ class DiceSame extends StatelessWidget {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    DiceView(n: gameState.dice(0)),
+                    DiceWidget(n: gameState.dice(0)),
                     const SizedBox(width: 20),
-                    DiceView(n: gameState.dice(1)),
+                    DiceWidget(n: gameState.dice(1)),
                   ],
                 ),
               ),

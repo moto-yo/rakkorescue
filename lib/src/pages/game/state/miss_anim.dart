@@ -3,7 +3,7 @@ import 'package:provider/provider.dart';
 
 import '../../../state/game_state.dart';
 
-import '../result_dlg.dart';
+import '../dialog/result_dlg.dart';
 
 class MissAnim extends StatelessWidget {
   const MissAnim({super.key});

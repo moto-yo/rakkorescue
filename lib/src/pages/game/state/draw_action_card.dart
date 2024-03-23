@@ -7,8 +7,8 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import '../../../assets/play_images.dart';
 import '../../../state/game_state.dart';
 
-import '../sea_dlg.dart';
-import '../tap_icon.dart';
+import '../dialog/sea_dlg.dart';
+import '../widgets/tap_icon.dart';
 
 class DrawActionCard extends StatefulWidget {
   const DrawActionCard({super.key});

@@ -3,10 +3,10 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
-import '../../assets/title_images.dart';
-import '../../state/game_state.dart';
-import '../../interfaces/state_type.dart';
-import '../../widgets/virtual_screen.dart';
+import '../../../assets/title_images.dart';
+import '../../../state/game_state.dart';
+import '../../../interfaces/state_type.dart';
+import '../../../widgets/virtual_screen.dart';
 
 class TitleView extends StatefulWidget {
   const TitleView({super.key});

@@ -6,9 +6,9 @@ import '../../../assets/play_images.dart';
 import '../../../state/game_state.dart';
 import '../../../interfaces/action_card.dart';
 
-import '../my_image_button.dart';
-import '../sea_dlg.dart';
-import '../action_card_view.dart';
+import '../widgets/my_image_button.dart';
+import '../dialog/sea_dlg.dart';
+import '../widgets/action_card_widget.dart';
 
 class ChoiceActionCard extends StatefulWidget {
   const ChoiceActionCard({super.key});
@@ -49,7 +49,7 @@ class _ChoiceActionCardState extends State<ChoiceActionCard> {
                       ...List.generate(gameState.actionCards.length, (i) {
                         final actionCard = gameState.actionCards[i];
 
-                        return ActionCardView(
+                        return ActionCardWidget(
                           actionCard: actionCard,
                           actionCardUse: ActionCardUse.dialog,
                           isDisable: !actionCard.canUse(gameState),
@@ -123,7 +123,7 @@ class _ChoiceActionCardState extends State<ChoiceActionCard> {
                       Container(
                         margin: const EdgeInsets.only(top: 151),
                         alignment: Alignment.topCenter,
-                        child: ActionCardView(
+                        child: ActionCardWidget(
                           actionCard: actionCard,
                           actionCardUse: ActionCardUse.dialog,
                         ),

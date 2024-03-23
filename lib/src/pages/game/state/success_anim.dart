@@ -5,7 +5,7 @@ import 'package:provider/provider.dart';
 
 import '../../../state/game_state.dart';
 
-import '../result_dlg.dart';
+import '../dialog/result_dlg.dart';
 
 class SuccessAnim extends StatelessWidget {
   const SuccessAnim({super.key});

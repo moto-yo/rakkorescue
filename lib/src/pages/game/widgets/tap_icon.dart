@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../assets/play_images.dart';
+import '../../../assets/play_images.dart';
 
 // 指アイコンが上下してタップを促す
 class TapIcon extends StatefulWidget {

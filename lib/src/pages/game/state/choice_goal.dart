@@ -5,8 +5,8 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import '../../../assets/play_images.dart';
 import '../../../state/game_state.dart';
 
-import '../my_image_button.dart';
-import '../sea_dlg_layout.dart';
+import '../widgets/my_image_button.dart';
+import '../views/sea_dlg_view.dart';
 
 class ChoiceGoal extends StatelessWidget {
   const ChoiceGoal({super.key});
@@ -14,7 +14,7 @@ class ChoiceGoal extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Consumer<GameState>(builder: (context, gameState, _) {
-      return SeaDlgLayout(
+      return SeaDlgView(
         bgImage: PlayImages.miniLongDlgBgBlue,
         width: 1086,
         height: 343,

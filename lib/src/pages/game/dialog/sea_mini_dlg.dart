@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import '../../state/game_state.dart';
-import '../../interfaces/state_type.dart';
+import '../../../state/game_state.dart';
+import '../../../interfaces/state_type.dart';
 
-import './state/choice_dice.dart';
-import './state/game_over.dart';
-import './state/remove_debri.dart';
+import '../state/choice_dice.dart';
+import '../state/game_over.dart';
+import '../state/remove_debri.dart';
 
-import './state/choice_repair_boat_info.dart';
-import './state/repair_boat.dart';
+import '../state/choice_repair_boat_info.dart';
+import '../state/repair_boat.dart';
 
-import 'state/rakos_help.dart';
-import 'state/rakos_research.dart';
+import '../state/rakos_help.dart';
+import '../state/rakos_research.dart';
 
 // 🌊海ダイアログのレイアウト
 class SeaMiniDlg extends StatelessWidget {

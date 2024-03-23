@@ -175,7 +175,7 @@ class GameState extends ChangeNotifier {
 
     // 🌊海カード
     for (final seaCard in _seaCards) {
-      if (seaCard.isOpened && (seaCard.suit.index < 3)) {
+      if (seaCard.isOpened && (seaCard.suit.index <= 3)) {
         debriCards.add(RoleCard(false, seaCard.id));
       }
     }
@@ -485,7 +485,16 @@ class GameState extends ChangeNotifier {
   }
 
   // ゴミ取りする役の index
-  int removeDebriRoleI = 0;
+  int _removeDebriRoleI = 0;
+  int get removeDebriRoleI => _removeDebriRoleI;
+  set removeDebriRoleI(int i) {
+    _removeDebriRoleI = i;
+
+    print("removeDebriRoleI = $_removeDebriRoleI");
+
+    // 再描画する
+    notifyListeners();
+  }
 
   // ---------------------------
   // 状態を遷移する

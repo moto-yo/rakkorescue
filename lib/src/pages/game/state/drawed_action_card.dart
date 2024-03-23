@@ -5,8 +5,8 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import '../../../assets/play_images.dart';
 import '../../../state/game_state.dart';
 
-import '../sea_dlg.dart';
-import '../action_card_view.dart';
+import '../dialog/sea_dlg.dart';
+import '../widgets/action_card_widget.dart';
 
 class DrawedActionCard extends StatelessWidget {
   const DrawedActionCard({super.key});
@@ -45,7 +45,7 @@ class DrawedActionCard extends StatelessWidget {
           Container(
             margin: const EdgeInsets.only(top: 151),
             alignment: Alignment.topCenter,
-            child: ActionCardView(
+            child: ActionCardWidget(
               actionCard: actionCard,
               actionCardUse: ActionCardUse.dialog,
             ),

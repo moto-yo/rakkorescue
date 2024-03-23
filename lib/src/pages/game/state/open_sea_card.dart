@@ -3,7 +3,7 @@ import 'package:provider/provider.dart';
 
 import '../../../state/game_state.dart';
 
-import '../open_sea_card_widget.dart';
+import '../dialog/open_sea_card_dlg.dart';
 
 class OpenSeaCard extends StatelessWidget {
   const OpenSeaCard({super.key});
@@ -14,7 +14,7 @@ class OpenSeaCard extends StatelessWidget {
       final gameState = Provider.of<GameState>(context, listen: false);
       final seaCard = gameState.getSeaCardId(gameState.openSeaCardId);
 
-      return OpenSeaCardWidget(
+      return OpenSeaCardDlg(
           seaCard: seaCard,
           onTap: () {
             // 遷移する

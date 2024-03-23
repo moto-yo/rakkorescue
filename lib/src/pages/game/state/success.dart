@@ -5,7 +5,7 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import '../../../assets/play_images.dart';
 import '../../../state/game_state.dart';
 
-import '../sea_dlg.dart';
+import '../dialog/sea_dlg.dart';
 
 class Success extends StatelessWidget {
   const Success({super.key});

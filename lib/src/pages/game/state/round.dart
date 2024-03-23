@@ -4,7 +4,7 @@ import 'package:provider/provider.dart';
 import '../../../assets/play_images.dart';
 import '../../../state/game_state.dart';
 
-import '../sea_dlg.dart';
+import '../dialog/sea_dlg.dart';
 
 class Round extends StatelessWidget {
   const Round({super.key});

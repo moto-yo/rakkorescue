@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class SeaDlgLayout extends StatelessWidget {
-  const SeaDlgLayout({
+class SeaDlgView extends StatelessWidget {
+  const SeaDlgView({
     super.key,
     required this.bgImage,
     required this.width,

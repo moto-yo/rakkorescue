@@ -5,8 +5,8 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import '../../../assets/play_images.dart';
 import '../../../state/game_state.dart';
 
-import '../sea_dlg.dart';
-import '../action_card_view.dart';
+import '../dialog/sea_dlg.dart';
+import '../widgets/action_card_widget.dart';
 
 class LimitActionCard extends StatelessWidget {
   const LimitActionCard({super.key});
@@ -38,7 +38,7 @@ class LimitActionCard extends StatelessWidget {
           ...List.generate(gameState.actionCards.length, (i) {
             final actionCard = gameState.actionCards[i];
 
-            return ActionCardView(
+            return ActionCardWidget(
               actionCard: actionCard,
               actionCardUse: ActionCardUse.dialog,
               onTap: () {
